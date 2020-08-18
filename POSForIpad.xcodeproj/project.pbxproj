@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4732473D24E54CB100435FBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4732473C24E54CB100435FBE /* AppDelegate.swift */; };
+		4732473F24E54CB200435FBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4732473E24E54CB200435FBE /* SceneDelegate.swift */; };
+		4732474124E54CB200435FBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4732474024E54CB200435FBE /* ViewController.swift */; };
+		4732474424E54CB200435FBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4732474224E54CB200435FBE /* Main.storyboard */; };
+		4732474724E54CB300435FBE /* POSForIpad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4732474524E54CB300435FBE /* POSForIpad.xcdatamodeld */; };
+		4732474924E54D1000435FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4732474824E54D1000435FBE /* Assets.xcassets */; };
+		4732474C24E54D1000435FBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4732474A24E54D1000435FBE /* LaunchScreen.storyboard */; };
+		4732475424E6886E00435FBE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4732475324E6886E00435FBE /* HomeViewController.swift */; };
+		6F83BB64CBA9FE703AB5268B /* Pods_POSForIpad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7A7124B3F7D0F8C408ADA2 /* Pods_POSForIpad.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C9CB32029B5ECD0F9E95545 /* Pods-POSForIpad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POSForIpad.release.xcconfig"; path = "Target Support Files/Pods-POSForIpad/Pods-POSForIpad.release.xcconfig"; sourceTree = "<group>"; };
+		3F7A7124B3F7D0F8C408ADA2 /* Pods_POSForIpad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POSForIpad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4732473924E54CB100435FBE /* POSForIpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POSForIpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4732473C24E54CB100435FBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4732473E24E54CB200435FBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4732474024E54CB200435FBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4732474324E54CB200435FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4732474624E54CB300435FBE /* POSForIpad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = POSForIpad.xcdatamodel; sourceTree = "<group>"; };
+		4732474824E54D1000435FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4732474B24E54D1000435FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4732474D24E54D1000435FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4732475324E6886E00435FBE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		67466C7026625360CC6995EE /* Pods-POSForIpad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POSForIpad.debug.xcconfig"; path = "Target Support Files/Pods-POSForIpad/Pods-POSForIpad.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4732473624E54CB100435FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F83BB64CBA9FE703AB5268B /* Pods_POSForIpad.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A3438FD5A4512B668456493 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F7A7124B3F7D0F8C408ADA2 /* Pods_POSForIpad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4732473024E54CAE00435FBE = {
+			isa = PBXGroup;
+			children = (
+				4732473B24E54CB100435FBE /* POSForIpad */,
+				4732473A24E54CB100435FBE /* Products */,
+				4C4DB97230C441478C54074B /* Pods */,
+				3A3438FD5A4512B668456493 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4732473A24E54CB100435FBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4732473924E54CB100435FBE /* POSForIpad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4732473B24E54CB100435FBE /* POSForIpad */ = {
+			isa = PBXGroup;
+			children = (
+				4732473C24E54CB100435FBE /* AppDelegate.swift */,
+				4732473E24E54CB200435FBE /* SceneDelegate.swift */,
+				4732474024E54CB200435FBE /* ViewController.swift */,
+				4732475324E6886E00435FBE /* HomeViewController.swift */,
+				4732474224E54CB200435FBE /* Main.storyboard */,
+				4732474824E54D1000435FBE /* Assets.xcassets */,
+				4732474A24E54D1000435FBE /* LaunchScreen.storyboard */,
+				4732474D24E54D1000435FBE /* Info.plist */,
+				4732474524E54CB300435FBE /* POSForIpad.xcdatamodeld */,
+			);
+			path = POSForIpad;
+			sourceTree = "<group>";
+		};
+		4C4DB97230C441478C54074B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67466C7026625360CC6995EE /* Pods-POSForIpad.debug.xcconfig */,
+				1C9CB32029B5ECD0F9E95545 /* Pods-POSForIpad.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4732473824E54CB100435FBE /* POSForIpad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4732475024E54D1000435FBE /* Build configuration list for PBXNativeTarget "POSForIpad" */;
+			buildPhases = (
+				F93E9B3B23B1103806C7D20D /* [CP] Check Pods Manifest.lock */,
+				4732473524E54CB100435FBE /* Sources */,
+				4732473624E54CB100435FBE /* Frameworks */,
+				4732473724E54CB100435FBE /* Resources */,
+				FFA0E6A036B237F99649E297 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POSForIpad;
+			productName = POSForIpad;
+			productReference = 4732473924E54CB100435FBE /* POSForIpad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4732473124E54CAF00435FBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Lancius;
+				TargetAttributes = {
+					4732473824E54CB100435FBE = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4732473424E54CAF00435FBE /* Build configuration list for PBXProject "POSForIpad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4732473024E54CAE00435FBE;
+			productRefGroup = 4732473A24E54CB100435FBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4732473824E54CB100435FBE /* POSForIpad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4732473724E54CB100435FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4732474C24E54D1000435FBE /* LaunchScreen.storyboard in Resources */,
+				4732474924E54D1000435FBE /* Assets.xcassets in Resources */,
+				4732474424E54CB200435FBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F93E9B3B23B1103806C7D20D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-POSForIpad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFA0E6A036B237F99649E297 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-POSForIpad/Pods-POSForIpad-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-POSForIpad/Pods-POSForIpad-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-POSForIpad/Pods-POSForIpad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4732473524E54CB100435FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4732475424E6886E00435FBE /* HomeViewController.swift in Sources */,
+				4732474124E54CB200435FBE /* ViewController.swift in Sources */,
+				4732473D24E54CB100435FBE /* AppDelegate.swift in Sources */,
+				4732474724E54CB300435FBE /* POSForIpad.xcdatamodeld in Sources */,
+				4732473F24E54CB200435FBE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4732474224E54CB200435FBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4732474324E54CB200435FBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4732474A24E54D1000435FBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4732474B24E54D1000435FBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4732474E24E54D1000435FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4732474F24E54D1000435FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4732475124E54D1000435FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67466C7026625360CC6995EE /* Pods-POSForIpad.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42J5CXS49A;
+				INFOPLIST_FILE = POSForIpad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lancius.POSForIpad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4732475224E54D1000435FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C9CB32029B5ECD0F9E95545 /* Pods-POSForIpad.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42J5CXS49A;
+				INFOPLIST_FILE = POSForIpad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lancius.POSForIpad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4732473424E54CAF00435FBE /* Build configuration list for PBXProject "POSForIpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4732474E24E54D1000435FBE /* Debug */,
+				4732474F24E54D1000435FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4732475024E54D1000435FBE /* Build configuration list for PBXNativeTarget "POSForIpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4732475124E54D1000435FBE /* Debug */,
+				4732475224E54D1000435FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4732474524E54CB300435FBE /* POSForIpad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4732474624E54CB300435FBE /* POSForIpad.xcdatamodel */,
+			);
+			currentVersion = 4732474624E54CB300435FBE /* POSForIpad.xcdatamodel */;
+			path = POSForIpad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4732473124E54CAF00435FBE /* Project object */;
+}
