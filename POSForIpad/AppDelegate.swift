@@ -12,7 +12,7 @@ let BaseUrl = "http://cygenpos.com.au/dev/retailapi/api/"
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+//"item_name" = "Britannia Bourbon-6291007906820";
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

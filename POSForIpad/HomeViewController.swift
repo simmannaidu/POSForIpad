@@ -160,6 +160,19 @@ class HomeViewController: UIViewController , UITableViewDelegate , UITableViewDa
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 90
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if tableView.tag == 1
+        {
+            
+        }
+        else
+        {
+            let item = self.categaryTableViewData[indexPath.row]
+                       let Cat_id = item["id"] ?? ""
+                        self.getProductListFromServer(category_id: Cat_id as! String)
+        }
+       
+    }
     //MARK: - Button Action
     
     @IBAction func subAction(_ sender: UIButton) {
